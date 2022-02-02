@@ -1,3 +1,29 @@
-p {
-  width: 500px;
+html {
+  font-size: 10px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
+  font-family: font-family: 'Source Serif 4', sans-serif;
+  background-color: #CAC3E3;
 }
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #E8E3F1;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #F0EEF6;
+  text-shadow: 3px 3px 4px black;
+}
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
+ /* комментарий */
