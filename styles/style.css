@@ -1,20 +1,46 @@
 html {
-  font-size: 10px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
-  font-family: font-family: 'Source Serif 4', sans-serif;
-  background-color: #CAC3E3;
+	font-size: 10px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
+	font-family: font-family: 'Source Serif 4', sans-serif;
+	background-color: #CAC3E3;
 }
 body {
-  width: 600px;
-  margin: 0 auto;
-  background-color: #E8E3F1;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+	margin: 0 0;
+	background-color: #E8E3F1;
+}
+header.page-header {
+	display: flex;
+	/*flex-direction: row;*/
+	/*align-items: center;*/
+	
+    height: 16vh;
+	/*width: 100%;*/
+    min-width: 120px;
+	margin: 0 auto;
+	color: #F0EEF6;
+	text-shadow: 3px 3px 4px black;
+	background-color: #936EC3
+}
+header.page-header img  {
+  display: block;
+  margin: 2vh auto;
+  width: 15vh;
+}
+div.page1 {
+	width: 600px;
+	margin: 0 auto;
+	padding: 0 20px 20px 20px;
+	border: 5px solid black;
+}
+div.page2 {
+	width: 600px;
+	margin: 0 auto;
+	padding: 0 20px 20px 20px;
+	border: 5px solid black;
 }
 h1 {
-  margin: 0;
-  padding: 20px 0;
-  color: #F0EEF6;
-  text-shadow: 3px 3px 4px black;
+  margin: 2em auto;
+  font-size: 30px;
+  /*padding: 20px 0;*/
 }
 p, li {
   font-size: 16px;
