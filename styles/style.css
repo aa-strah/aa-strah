@@ -7,7 +7,10 @@ body {
 	margin: 0 0;
 	background-color: #E8E3F1;
 }
-header.page-header {
+span.bold {
+    font-weight: bold;
+}
+.page-header {
 	display: flex;
 	/*flex-direction: row;
 	align-items: flex-start;*/
@@ -20,20 +23,28 @@ header.page-header {
 	text-shadow: 3px 3px 4px black;
 	background-color: #936EC3
 }
-header.page-header img  {
-	display: block;
-	margin: 1vh auto;
-	width: 15vh;
+.emblem  {
+	/*display: block;*/
+	margin: 1em 0 0 1em;
+	width: 26em;
+	height: 15em;
 	border: 5px solid black;
+	text-align: left
 }
-article.company-name  {
+.page-header img  {
+	width: 20em;
+}
+.company-name  {
 	font-size: 30px;
 	border: 5px solid black;
 	margin: auto;
+	/*width: 50%;*/
 }
-article.contacts  {
+.contacts  {
 	/*align-self: self-end;*/
 	border: 5px solid black;
+	margin: 0 1em 0 0;
+	width: 26em;
 }
 div.page1 {
 	width: 600px;
