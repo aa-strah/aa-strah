@@ -9,10 +9,10 @@ body {
 }
 header.page-header {
 	display: flex;
-	/*flex-direction: row;*/
-	/*align-items: center;*/
+	/*flex-direction: row;
+	align-items: flex-start;*/
 	
-    height: 16vh;
+    /*height: 16vh;
 	/*width: 100%;*/
     min-width: 120px;
 	margin: 0 auto;
@@ -21,9 +21,19 @@ header.page-header {
 	background-color: #936EC3
 }
 header.page-header img  {
-  display: block;
-  margin: 2vh auto;
-  width: 15vh;
+	display: block;
+	margin: 1vh auto;
+	width: 15vh;
+	border: 5px solid black;
+}
+article.company-name  {
+	font-size: 30px;
+	border: 5px solid black;
+	margin: auto;
+}
+article.contacts  {
+	/*align-self: self-end;*/
+	border: 5px solid black;
 }
 div.page1 {
 	width: 600px;
@@ -38,8 +48,7 @@ div.page2 {
 	border: 5px solid black;
 }
 h1 {
-  margin: 2em auto;
-  font-size: 30px;
+  /*margin: 2em auto;*/
   /*padding: 20px 0;*/
 }
 p, li {
